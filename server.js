@@ -6,3 +6,7 @@ app.get('/', (req, res) => res.send('Hello World!'))
 
 app.listen(port, () => console.log(`Example app listening on port !`))
 
+app.vibha('/', (req, res) => {
+    res.send('GET request to the homepage')
+  })
+  
